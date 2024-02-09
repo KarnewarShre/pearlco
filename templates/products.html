@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl and Co - Products</title>
+    <style>
+        /* CSS styles for the products section */
+        #products {
+            padding: 20px;
+            background-color: #f0f0f0; /* Set a solid background color */
+            display: flex;
+            flex-wrap: wrap; /* Allow products to wrap to next line */
+            justify-content: flex-start; /* Align products from left to right */
+            align-items: flex-start; /* Align products from top to bottom */
+        }
+
+        .product {
+            width: 200px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+            cursor: pointer;
+            position: relative;
+            transition: transform 0.3s ease-in-out; /* Transition effect for smooth movement */
+        }
+
+        .product:hover {
+            transform: translateX(10px); /* Move product 10px to the right on hover */
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+        }
+
+        .product h3 {
+            margin-top: 0;
+            font-size: 18px;
+        }
+
+        /* CSS styles for the popup */
+        .popup {
+            display: none;
+            position: absolute;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+        }
+
+        /* CSS styles for the "Shop Now" button */
+        .product button {
+            width: 100%;
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .product button:hover {
+            background-color: #45a049;
+        }
+
+        /* CSS styles for the popup close button */
+        .close {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Header content (same as other pages) -->
+    </header>
+
+    <section id="products">
+        <!-- Cosmetic Products -->
+        <div class="product">
+            <img src="static/image/img_10.jpg" alt="Cosmetic Product 1">
+            <h3>Cosmetic Product 1</h3>
+            <button>Shop Now</button>
+            <div class="popup">
+                <span class="close">&times;</span>
+                <p>Description of the product...</p>
+                <p>$20.00</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="./static/image/img_12.jpg" alt="Cosmetic Product 2">
+            <h3>Cosmetic Product 2</h3>
+            <button>Shop Now</button>
+            <div class="popup">
+                <span class="close">&times;</span>
+                <p>Description of the product...</p>
+                <p>$25.00</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="./static/image/img_13.jpg" alt="Cosmetic Product 3">
+            <h3>Cosmetic Product 3</h3>
+            <button>Shop Now</button>
+            <div class="popup">
+                <span class="close">&times;</span>
+                <p>Description of the product...</p>
+                <p>$30.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional sections for products page content -->
+
+    <footer id="contact">
+        <!-- Footer content (same as other pages) -->
+    </footer>
+</body>
+</html>
