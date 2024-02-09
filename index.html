@@ -3,13 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmetic Products Company - Home</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> <!-- Link to the CSS file -->
+    <title>Pearl and Co- Home</title>
+    <style>
+        /* CSS styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light gray background color */
+            color: #333; /* Dark text color */
+            min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+            position: relative; /* Needed for footer positioning */
+        }
+
+        header {
+            background-color: #fff; /* White background for the header */
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Drop shadow */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        #hero {
+            background-image: url('./static/image/img_5.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 600px; /* Adjust height as needed */
+            color: #fff; /* Text color for the hero section */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; /* Needed for button positioning */
+        }
+
+        #shop-now {
+            background-color: #FF5733; /* Button background color */
+            color: #fff; /* Button text color */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #shop-now:hover {
+            background-color: #FF814E; /* Button background color on hover */
+        }
+
+        footer {
+            background-color: #333; /* Dark background for the footer */
+            color: #fff; /* Light text color */
+            padding: 20px 0;
+            text-align: center;
+            position: absolute; /* Position the footer at the bottom */
+            width: 100%; /* Full width */
+            bottom: 0; /* Stick to the bottom */
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Cosmetic Products Company</h1>
+            <h1>Pearl and Co </h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -22,13 +106,14 @@
     </header>
 
     <section id="hero">
-        <!-- Hero section content -->
+        <!-- You can add more content here -->
     </section>
 
     <!-- Additional sections for homepage content -->
 
     <footer id="contact">
-        <!-- Footer content -->
+        <p>Contact us: support.pearlandco@gmail.com</p>
+        <!-- You can add more content here -->
     </footer>
 </body>
 </html>

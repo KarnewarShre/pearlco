@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic Products Company - Contact</title>
+    <style>
+        /* CSS styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('./static/image/img_5.jpg'); /* Background image */
+            background-size: cover; /* Cover the entire viewport */
+            color: #333; /* Dark text color */
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for the header */
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Drop shadow */
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #4f9e9b; /* Darker text color for company name */
+        }
+
+        section#contact {
+            padding: 50px;
+            text-align: left; /* Align content to the left */
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #4f9e9b; /* Darker text color for section title */
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            color: #666; /* Lighter text color for contact information */
+        }
+
+        .contact-info strong {
+            font-weight: bold;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form label,
+        .contact-form textarea,
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px; /* Increased spacing between form elements */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .contact-form textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        .contact-form button {
+            background-color: #4f9e9b; /* Button background color */
+            color: #fff; /* Button text color */
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #6fbfb8; /* Button background color on hover */
+        }
+
+        footer {
+            background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent dark background for the footer */
+            color: #fff; /* Light text color */
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px; /* Increased margin from the content */
+        }
+
+        .company-name {
+            font-size: 24px;
+            color: #4f9e9b; /* Darker text color for company name */
+        }
+
+        .contact-info {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- You can add header content here if needed -->
+            <h1 class="company-name">Pearl and Co.</h1>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:support.pearlandco@gmail.com">support.pearlandco@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+91-9834518217">+91-9834518217</a></p>
+                <p><strong>Address:</strong> Near Satara Bridge Bhusawal, India</p>
+            </div>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Additional sections for contact page content -->
+
+    <footer>
+        <p>&copy; 2024 Pearl and Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>

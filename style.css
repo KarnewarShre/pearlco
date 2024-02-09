@@ -1,0 +1,154 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Background color for the body */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 24px;
+    font-weight: 70;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #e74c3c; /* Background color for the hero section */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: auto;
+    font-weight: auto;
+    margin-bottom: auto;
+}
+
+#hero p {
+    font-size: auto;
+    margin-bottom: auto;
+}
+
+/* Products Section */
+#products {
+    background-color: #fff; /* Background color for the products section */
+    padding: 80px 0;
+}
+
+#products h2 {
+    font-size: auto;
+    font-weight: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.product-img {
+    width: 12%;
+    max-width: auto; /* Set maximum width for the product images */
+    height: auto;
+    border-radius: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    font-size: auto;
+    font-weight: auto;
+    margin-top: auto;
+}
+
+.product p {
+    font-size: auto;
+    margin-top: auto;
+}
+
+/* About Section */
+#about {
+    background-color: #f9f9f9; /* Background color for the about section */
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-size: auto;
+    font-weight: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #e74c3c;
+}
